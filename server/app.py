@@ -36,14 +36,13 @@ def generate_image():
         # Use the edit endpoint if a reference image is included
         if ref_image:
             result = client.images.edit(
-    model="gpt-image-1",
-    image=(ref_image.filename, ref_image.stream, ref_image.mimetype),
-    prompt=prompt,
-    size=size,
-    quality=quality,
-    background=background
-)
-
+                model="gpt-image-1",
+                image=(ref_image.filename, ref_image.stream, ref_image.mimetype),
+                prompt=prompt,
+                size=size,
+                quality=quality
+                # DO NOT include `background` here
+            )
         else:
             result = client.images.generate(
                 model="gpt-image-1",

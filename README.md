@@ -1,5 +1,5 @@
 # PlaneAnimator
-Only avalibale for Windows but adding mac version soon*
+Only avalibale for Blender 3.2+ & Windows*
 
 **"What can you do with this add on?"**  
 Quickly create transparent (or opaque) images from prompts or camera reference using the annotation tool

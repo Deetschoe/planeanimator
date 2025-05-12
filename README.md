@@ -86,18 +86,10 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## 🧪 Usage
 
-1. Type in a prompt (e.g., *“anime ghost girl with umbrella”*)
+1. Type in a prompt (e.g., *“ghost girl with umbrella”*)
 2. Pick a style and output folder
 3. (Optional) Check **Use Camera Reference** if you want the current camera view as a guide
 4. Click **Generate Frame**
 5. Done! The image plane will appear in front of the camera with the image applied.
-
----
-
-## ❗ Requirements
-
-- OpenAI API key with image generation access
-- Flask server running locally
-- **Windows only for now** (Mac support coming soon)
 
 ---

@@ -70,7 +70,7 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 > 🔑 You’ll need a valid OpenAI API key with access to **image generation** (`gpt-image-1`).  
-> [Request access here](https://platform.openai.com/docs/guides/images/overview) if needed.
+[Request access here](https://platform.openai.com/docs/guides/images-vision?api-mode=responses)
 
 ---
 
